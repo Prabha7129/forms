@@ -1,26 +1,42 @@
 body{
     background-color: rgb(2, 62, 102);
 }
-label{
+label,ol{
     float: left;
     color: white;
-    font-size: 22px;
+    font-size: 25px;
+    
+    
 }
 input{
     float: left;
     height: 30px;
-    width: 30%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgb(2, 62, 102);
+    
 }
 .right{
-    width: 400px;
-    
+    width:45%;
+    float: rigth;
     display: inline-block;
 }
 .left{
-    width: 400px;
-    
+    width:45%;
+    float: left;
     display: inline-block;
+}
+.plus{
+    width:5%;
+    display: inline-block;
+    height: 50px;
+    display: flex;
+    font-size: 40px;
+    background-color: rgb(79, 199, 79);
+}
+.box{
+    height: 190px;
 }
 #submit{
     float: right;
@@ -28,8 +44,8 @@ input{
     width: 60px;
     background-color: rgb(79, 199, 79);
 }
-div{
-    
+form{
+    padding: 10px;
     width: 1000px;
     
 }
