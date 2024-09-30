@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(2, 62, 102);
+}
+label{
+    float: left;
+    color: white;
+    font-size: 22px;
+}
+input{
+    float: left;
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
+}
+.right{
+    width: 400px;
+    
+    display: inline-block;
+}
+.left{
+    width: 400px;
+    
+    display: inline-block;
+}
+#submit{
+    float: right;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(79, 199, 79);
+}
+div{
+    
+    width: 1000px;
+    
+}
