@@ -1,6 +1,9 @@
 body{
     background-color: rgb(2, 62, 102);
 }
+h1{
+    color: white;
+}
 label,ol{
     float: left;
     color: white;
